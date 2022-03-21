@@ -1,0 +1,43 @@
+body {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 5px solid yellow;
+}
+.main {
+    display: block;
+    width: 1200px;
+    height: 600px;
+    border: 5px solid green;
+    margin: 40px auto auto auto;
+}
+.input {
+    display: block;
+    margin: 10px auto auto 148.5px;
+    height: fit-content;
+    width: fit-content;
+
+}
+.filters{
+    display: block;
+    margin: 20px auto auto 145px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 20px;
+}
+.top {
+    width: 800px;
+    height: 90px;
+    border: 2px solid blue;
+    margin: 30px auto auto auto;
+}
+.priority {
+    margin: -62px auto auto 580px;
+}
+.image {
+    position: absolute;
+    margin: -20px auto auto 690px;
+}

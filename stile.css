@@ -41,3 +41,34 @@ body {
     position: absolute;
     margin: -20px auto auto 690px;
 }
+.task {
+    width: 870px;
+    height: 90px;
+    border: 2px solid purple;
+    margin: 30px 73px auto auto;
+    position: relative;
+}
+.text {
+    display: inline-block;
+    font-size: 25px;
+}
+.prior {
+    display: inline-block;
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+}
+.trashbin {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    right: 0;
+    top: 9.5px;
+}
+.tasktext{
+    border: 2px solid orange;
+    width: 678px;
+    height: 30px;
+    margin : -40px auto auto auto;
+}

@@ -8,27 +8,28 @@
     <link rel ="stylesheet" href = "stile.css">
 </head>
 <body>
-    <div class = 'main'>
-        <div class = 'top' >
+    <div class = 'main' id = 'main'>
+        <div class = 'top' id ='top' >
         <div class="input">
-            <input type = 'text' placeholder="Введите задачу" id = 'input' size = 58px >
+            <form>
+            <input type = 'text' placeholder="Введите задачу"  size = 58px name = "input1" >
+        </form id = 'data'>
         </div>  
         <div class = "filters">
-            <input type  = 'checkbox' name = 'completed' value = 'completed'> Выполнено
-            <input type  = 'checkbox' name = 'high' value = 'high'> Высокий
-            <input type  = 'checkbox' name = 'medium' value = 'medium'> Средний
-            <input type  = 'checkbox' name = 'low' value = 'low'> Низкий  
+            <input type  = 'checkbox' id = 'checkboxc' name = 'completed' value = 'completed'> Выполнено
+            <input type  = 'checkbox' name = 'high' id = 'checkboxh' value = 'high'> Высокий
+            <input type  = 'checkbox' name = 'medium' id = 'checkboxm' value = 'medium'> Средний
+            <input type  = 'checkbox' name = 'low' id = 'checkboxl' value = 'low'> Низкий  
     </div>
     <div class = 'priority'>
-        <select name = 'priority'>
-            <option selected value ='completed'>Выполнено</option>
-            <option selected value ='high'>Высокий</option>
-            <option selected value ='medium'>Средний</option>
-            <option selected value ='low'>Низкий</option>
+        <select name = 'priority' id = 'priority'>
+            <option selected value ='high' id = 'selecth'>Высокий</option>
+            <option selected value ='medium' id = 'selectm'>Средний</option>
+            <option selected value ='low' id = 'selectl'>Низкий</option>
         </select>
     </div>
     <div class = 'image'>
-        <img src="https://a.d-cd.net/8uh4sXvS-sEPSgua9IapGmOoUDM-1920.jpg" height="20px" width="20px">
+        <img src="https://a.d-cd.net/8uh4sXvS-sEPSgua9IapGmOoUDM-1920.jpg" id ='plus' height="20px" width="20px">
     </div>
     </div>
     <script src='script.js'></script>   
